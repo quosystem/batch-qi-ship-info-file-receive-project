@@ -1,0 +1,26 @@
+# User-specific files
+*.suo
+*.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Click-Once directory
+publish/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# 自動復元される packages フォルダは無視
+**/[Pp]ackages/*
+
+# Crystal Reports バックアップフォルダは無視
+**/Crystal Reports バックアップファイル/*
+
+# XSD（XML Schema Definition）ファイルは無視
+*.xsd
