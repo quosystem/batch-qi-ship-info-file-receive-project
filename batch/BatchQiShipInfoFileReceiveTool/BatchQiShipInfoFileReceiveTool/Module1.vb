@@ -24,6 +24,8 @@ Module Module1
             'イベント開始記録
             StratLog()
 
+            Dim logic As New BusinessLogic
+            logic.ReceiveFile().GetAwaiter().GetResult()
 
             'イベント結果記録
             EndLog()
