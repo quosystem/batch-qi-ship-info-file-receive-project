@@ -158,6 +158,7 @@ Public Class BusinessLogic
         sourceFilePath:=filePath,
         destFolder:=destFolder)
 
+        ConfigManager.Logger?.WriteLog(LogManager.LogLevel.INFO, "", $"【ファイル転送完了】{FileUtilities.GetFileNameFromPath(filePath)}")
     End Sub
 
     ''' <summary>
